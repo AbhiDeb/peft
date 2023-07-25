@@ -1071,7 +1071,7 @@ if is_bnb_available():
                 out_features,
                 bias=kwargs.get("bias", True),
                 has_fp16_weights=kwargs.get("has_fp16_weights", True),
-                memory_efficient_backward=kwargs.get("memory_efficient_backward", False),
+                # memory_efficient_backward=kwargs.get("memory_efficient_backward", False),
                 threshold=kwargs.get("threshold", 0.0),
                 index=kwargs.get("index", None),
             )
